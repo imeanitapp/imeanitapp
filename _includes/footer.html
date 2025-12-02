@@ -51,12 +51,15 @@
 
 		{% if site.bluesky_username %}
 			<a href="https://bsky.app/profile/{{ site.bluesky_username }}">
-				<span class="fa-stack fa-1x">
-					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-					<img src="/assets/bluesky.svg" class="fa-stack-1x socialIconTop" alt="">
-				</span>
+    			<span class="fa-stack fa-1x">
+        			<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+		        	<span class="fa-stack-1x socialIconTop">
+		            	{% include_relative assets/icon.svg %}
+        			</span>
+			    </span>
 			</a>
 		{% endif %}
+
 
 		{% if site.mastodon_link %}
 			<a rel="me" href="{{ site.mastodon_link }}">
