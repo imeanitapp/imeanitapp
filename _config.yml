@@ -13,7 +13,8 @@ presskit_download_link                    : https://emilbaehr.com               
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Effortlessly highlight words add notes and recall them directly on any webpage. iMeanIt is a Safari extension that helps you stay organised and learn while browsing. Whether you're building vocabulary, studying or tracking important information, iMeanIt lets you easily highlight words, add notes and keep them for future reference. Your highlights are permanent—they stay visible even after refreshing or revisiting the page. Plus, you can export highlights as a CSV for use in flashcard apps, turning your web research into study material.
+app_description                           : Highlight words, add notes and keep them visible on any webpage. iMeanIt is a Safari extension for storing vocabulary, tracking information and revisiting saved highlights. Notes persist across visits and can be exported as CSV for study use.
+
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -31,7 +32,6 @@ instagram_username                        :
 twitter_username                          : 
 github_username                           : 
 youtube_username                          :
-bluesky_username                          : https://bsky.app/@imeanitapp
 mastodon_link                             : https://mastodon.social/@imeanitapp
 
 
