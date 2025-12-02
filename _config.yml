@@ -46,7 +46,7 @@ features                                  :
     
   - title                                 : Sticky notes.
     description                           : Add sticky notes to your highlights. Permanently.
-    fontawesome_icon_name                 : sticky-note
+    fontawesome_icon_name                 : note-sticky
 
   - title                                 : Export as CSV.
     description                           : Easily transfer your library into your favourite flashcard app.
