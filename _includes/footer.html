@@ -50,15 +50,13 @@
 		{% endif %}
 
 		{% if site.bluesky_username %}
-			<a href="https://bsky.app/profile/{{ site.bluesky_username }}">
-    			<span class="fa-stack fa-1x">
-        			<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-		        	<span class="fa-stack-1x socialIconTop">
-		            	{% include_relative assets/icon.svg %}
-        			</span>
-			    </span>
-			</a>
-		{% endif %}
+            <a href="https://bsky.app/profile/{{ site.bluesky_username }}">
+                 <span class="fa-stack fa-1x">
+                      <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+                      <img src="assets/icon.svg" class="fa-stack-1x" style="width:1em; height:1em; display:block;">
+                 </span>
+            </a>
+        {% endif %}
 
 
 		{% if site.mastodon_link %}
